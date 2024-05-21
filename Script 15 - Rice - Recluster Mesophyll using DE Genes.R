@@ -15,7 +15,7 @@ subcluster_rice_combined_10X <- FindNeighbors(object = subcluster_rice_combined_
 subcluster_rice_combined_10X <- FindClusters(subcluster_rice_combined_10X, resolution = 0) 
 Idents(subcluster_rice_combined_10X)<-subcluster_rice_combined_10X$light_time 
 DefaultAssay(object = subcluster_rice_combined_10X) <- "RNA" 
-DimPlot(object = subcluster_rice_combined_10X, reduction = "umap", label = TRUE, raster = FALSE, pt.size = 0.5) + NoLegend()
+DimPlot(object = subcluster_rice_combined_10X, reduction = "umap", label = TRUE, raster = FALSE, pt.size = 0.5, cols =plasma(8, direction = 1)) + NoLegend()
 save(subcluster_rice_combined_10X, file = "L3_rice_mesophyll_reclustered.RData")
 
 #load("L3_rice_mesophyll_reclustered.RData")
