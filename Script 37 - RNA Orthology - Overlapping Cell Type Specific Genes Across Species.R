@@ -15,7 +15,9 @@ sorghum_orthogroups<-list(NA)
 
 for (b in 1:6){
 print(b)
-sorghum_cell_type<-rownames(sorghum_markers[[b]]) # put in cell type of interest
+sorghum_markers_all<-sorghum_markers[[b]]
+sorghum_markers_sig<-subset(sorghum_markers_all, sorghum_markers_all$p_val_adj<0.01)
+sorghum_cell_type<-rownames(sorghum_markers_sig) # put in cell type of interest
 sorghum_orthology<-matrix(NA,nrow=length(sorghum_cell_type),ncol=3)
 for (i in 1:length(sorghum_cell_type)) {sorghum_orthology[i,]<-as.character(orthology[grep(sorghum_cell_type[i], orthology$Sorghum),])}
 rownames(sorghum_orthology)<-sorghum_cell_type
@@ -25,7 +27,9 @@ sorghum_orthology<-subset(sorghum_orthology, substr(sorghum_orthology$Orthogroup
 sorghum_orthology$Sorghum<-rownames(sorghum_orthology)
 
 for (a in 1:6){
-rice_cell_type<-str_replace(rownames(rice_markers[[a]]),"-","_") # rice cell type
+rice_markers_all<-rice_markers[[a]]
+rice_markers_sig<-subset(rice_markers_all, rice_markers_all$p_val_adj<0.01)
+rice_cell_type<-str_replace(rownames(rice_markers_sig) ,"-","_") # rice cell type
 rice_orthology<-matrix(NA,nrow=length(rice_cell_type),ncol=3)
 for (i in 1:length(rice_cell_type)) {rice_orthology[i,]<-as.character(orthology[grep(rice_cell_type[i], orthology$Rice),])}
 rownames(rice_orthology)<-rice_cell_type
