@@ -37,22 +37,26 @@ rice_combined_labelled <-RenameIdents(rice_combined_labelled, `0`   = "mesophyll
                                                               `18`   = "unknown")
 rice_combined_labelled$cell_types<-Idents(rice_combined_labelled) 
 
-# Save It
-save(rice_combined_labelled, file="L1_rice_combined_labelled.RData")
-#load("L1_rice_combined_labelled.RData")
+rice_combined_CI_labelled<-rice_combined_labelled[,rice_combined_labelled$assay_type %in% c("CI")]
+rice_combined_CI_labelled<-rice_combined_CI_labelled[,substr(colnames(rice_combined_CI_labelled),6,7) == '48'] 
 
-# L1 UMAP Coloring 
+# Save Data
+save(rice_combined_labelled, file="L1_rice_combined_labelled.RData")
+save(rice_combined_CI_labelled, file="L1_rice_combined_CI_labelled.RData")
+
+# UMAP Coloring 
+#load("L1_rice_combined_labelled.RData")
 colors<-as.data.frame(table(Idents(rice_combined_labelled)))
 colors[,3]<-c("springgreen4","grey90", "navajowhite3","peachpuff4","deepskyblue4","steelblue1","turquoise3", "tan3","royalblue3")
 pdf('rice_cluster.pdf')
 DimPlot(object = rice_combined_labelled, reduction = "umap", label=FALSE, raster = FALSE, cols = colors[,3]) + theme(legend.position="none")
 dev.off()
 
-# Proportions
+# Calculating Proportions
 proportions<-table(Idents(rice_combined_labelled))
 proportions<-proportions/sum(proportions)
 
-# Dot Plot
+# Generating Dot Plot
 Idents(rice_combined_labelled) <- factor(rice_combined_labelled@active.ident, rev(c("mesophyll","bundle_sheath","phloem","xylem","epidermis","guard")))
 rice_combined_dot_plot<-rice_combined_labelled[,WhichCells(rice_combined_labelled, idents = c("guard","epidermis","phloem","xylem","bundle_sheath","mesophyll"))]
 pdf('rice_dot.pdf')
