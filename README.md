@@ -130,40 +130,40 @@ This repository contains a series of R scripts designed to handle various aspect
   - Generate volcano plots for 0h and 12h time points.
   - Additional scatterplot visualization.
 
-#### Script 20: Rice - Plotting Individual Genes
+### Script 20: Rice - Plotting Individual Genes
 - **Description**: Generates cell-type specific gene expression profiles for selected candidate genes.
 - **Key Operations**: Gene expression plotting.
 - **Figures**: HY5s and PIFs, supplementary figures.
 
-#### Script 21: Rice - Z-score Plots
+### Script 21: Rice - Z-score Plots
 - **Description**: Clusters and visualizes expression patterns of genes differentially expressed in response to light.
 - **Key Operations**: Differential expression clustering followed by Z-score plotting.
 
-#### Script 22: Rice - Pairwise Differential Expression of Cell Type Pairs
+### Script 22: Rice - Pairwise Differential Expression of Cell Type Pairs
 - **Description**: Performs ANCOVA analysis on pseduobulked transcriptional profiles to analyze differential expression between cell type pairs.
 
-#### Script 23: Sorghum - 10X & sci-RNA-seq3 Atlas Visualization
+### Script 23: Sorghum - 10X & sci-RNA-seq3 Atlas Visualization
 - **Description**: Visualizes clustered Sorghum Atlas using RNA data.
 - **Key Operations**: Data subsampling for local processing, feature plotting.
 
-#### Script 24: Sorghum - Barplot Composition
+### Script 24: Sorghum - Barplot Composition
 - **Description**: Creates barplots to compare cluster representation across different assay types and time points.
 
-#### Script 25: Sorghum - Find Cluster Markers
+### Script 25: Sorghum - Find Cluster Markers
 - **Description**: Identifies top cluster-specific markers for each cluster.
 - **Key Operations**: Marker identification.
 
-#### Script 26: Sorghum - Dot Plots and UMAP
+### Script 26: Sorghum - Dot Plots and UMAP
 - **Description**: Labels cell types in Sorghum Atlas and generates dot plots using published markers.
 - **Key Operations**: UMAP visualization, dot plot creation.
 
-#### Script 27: Sorghum - Cell Class Clustering
+### Script 27: Sorghum - Cell Class Clustering
 - **Description**: Clusters specific cell classes including mesophyll, epidermal, and vasculature clusters.
 
-#### Script 28: Sorghum - Cell Class Investigating
+### Script 28: Sorghum - Cell Class Investigating
 - **Description**: Visualizes clustering of cell classes like vasculature, mesophyll, and epidermis.
 
-#### Script 29: Sorghum - Compute Differential Expression
+### Script 29: Sorghum - Compute Differential Expression
 - **Description**: Computes differentially expressed genes for each identified cell type.
 
 ### Script 30: Sorghum - Pseudo-Bulk Expression Profiles and T0-T12 Comparison
