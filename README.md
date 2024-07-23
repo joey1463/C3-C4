@@ -33,7 +33,7 @@ Clone this repository to access the scripts on your local machine:
 git clone https://github.com/joey1463/C3-C4.git
 cd C3-C4
 ```
-# R Scripts for RNA-seq Analysis
+# R Scripts for single nuclei expression and chromatin analyses
 
 This repository contains a series of R scripts designed to handle various aspects of RNA-seq data analysis, particularly focusing on sci-RNA-seq3 demultiplexing, clustering, and visualization for Rice and Sorghum experiments. Each script is tailored to specific stages of the data analysis pipeline.
 
@@ -77,127 +77,123 @@ This repository contains a series of R scripts designed to handle various aspect
 - **Purpose**: Labels cell types in the Rice Atlas and generates dot plots using published markers.
 - **Data**: Loads `L1_rice_combined_labelled.RData`.
 
-### Script 10 - M-Turquoise Clustering
-- **Purpose:** Process and cluster 10X-RNA nuclei data from the rice mTurquoise line.
+### Script 10 - Rice - mTurquoise Clustering
+- **Purpose:** Processes and clusters 10X-RNA nuclei data from the rice mTurquoise line.
 - **Features:**
   - Combines data from two replicates.
   - Identifies markers.
   - Generates plots.
 
-### Script 11 - Identify Bundle Sheath with M-Turquoise Markers
+### Script 11 - Rice -Identifying Bundle Sheath with mTurquoise Markers
 - **Purpose:** Uses mTurquoise line specific markers to identify bundle sheath cells, comparing with the Rice atlas.
 - **Features:**
   - Analysis of marker overlap.
   - Module score plot generation.
 
-### Script 12 - Cell Class Clustering
+### Script 12 - Rice - Cell Class Clustering
 - **Purpose:** Re-cluster various cell types including mesophyll, epidermal, and vasculature clusters.
-- **Cell Types:** Mesophyll, Vasculature, Epidermis
+- **Cell Classes:** Mesophyll, Vasculature, Epidermis
 
-### Script 13 - Cell Class Investigating
+### Script 13 - Rice - Cell Class Investigating
 - **Purpose:** Visualize clustering results for different rice cell classes.
-- **Visualized Cell Types:** Vasculature, Mesophyll, Epidermis
+- **Visualized Cell Classes:** Vasculature, Mesophyll, Epidermis
 
-### Script 14 - Compute Differential Expression
+### Script 14 - Rice - Compute Differential Expression
 - **Purpose:** Calculate differentially expressed genes across identified cell types.
 
-### Script 15 - Pseudo-Bulk Expression Profiles and T0-T12 Comparison
+### Script 15 - Rice - Pseudo-Bulk Expression Profiles and T0-T12 Comparison
 - **Purpose:** Analyze transcriptional profiles and differential expression under etiolated conditions.
 - **Features:**
   - Generate and analyze pseudo-bulked expression profiles.
   - Compare T0 and T12 responses.
 
-### Script 16 - Recluster Mesophyll using DE Genes
+### Script 16 - Rice - Recluster Mesophyll using DE Genes
 - **Purpose:** Subcluster mesophyll cells using differentially expressed genes.
 - **Features:**
   - Recluster using variable features.
-  - Load previously clustered data.
 
-### Script 17 - Load Data Sets
+### Script 17 - Rice - Load Data Sets
 - **Purpose:** Import pseudo-bulked expression profiles and other relevant data sets.
 - **Features:**
   - Handle time-series data.
   - Export gene lists for further analysis.
 
-### Script 18 - Cell Type Specific Expression of Photosynthesis Genes
+### Script 18 - Rice - Cell Type Specific Expression of Photosynthesis Genes
 - **Purpose:** Analyze light-responsive genes involved in photosynthesis within specific cell types.
 - **Features:**
   - Subset and analyze differentially expressed genes.
   - Generate heatmaps.
 
-### Script 19 - Volcano Plot
+### Script 19 - Rice - Volcano Plot
 - **Purpose:** Construct volcano plots to visualize differentially expressed genes between cell types over time.
 - **Features:**
   - Generate volcano plots for 0h and 12h time points.
   - Additional scatterplot visualization.
 
-#### Script 20: Plotting Individual Genes
+#### Script 20: Rice - Plotting Individual Genes
 - **Description**: Generates cell-type specific gene expression profiles for selected candidate genes.
-- **Key Operations**: Log transformation of expression values, gene expression plotting.
-- **Figures**: HY5s and PIFs, supplementary figures (starch analysis removed).
+- **Key Operations**: Gene expression plotting.
+- **Figures**: HY5s and PIFs, supplementary figures.
 
-#### Script 21: Z-score Plots
+#### Script 21: Rice - Z-score Plots
 - **Description**: Clusters and visualizes expression patterns of genes differentially expressed in response to light.
-- **Key Operations**: Differential expression clustering, Z-score plotting.
-- **Figures**: Figure 3, Supplementary Figure.
+- **Key Operations**: Differential expression clustering followed by Z-score plotting.
 
-#### Script 22: Pairwise Differential Expression of Cell Type Pairs
+#### Script 22: Rice - Pairwise Differential Expression of Cell Type Pairs
 - **Description**: Performs ANCOVA analysis on pseduobulked transcriptional profiles to analyze differential expression between cell type pairs.
-- **Key Operations**: ANCOVA analysis.
 
-#### Script 23: 10X & sci-RNA-seq3 Atlas Visualization
+#### Script 23: Sorghum - 10X & sci-RNA-seq3 Atlas Visualization
 - **Description**: Visualizes clustered Sorghum Atlas using RNA data.
 - **Key Operations**: Data subsampling for local processing, feature plotting.
 
-#### Script 24: Barplot Composition
+#### Script 24: Sorghum - Barplot Composition
 - **Description**: Creates barplots to compare cluster representation across different assay types and time points.
 
-#### Script 25: Find Cluster Markers
+#### Script 25: Sorghum - Find Cluster Markers
 - **Description**: Identifies top cluster-specific markers for each cluster.
 - **Key Operations**: Marker identification.
 
-#### Script 26: Dot Plots and UMAP
+#### Script 26: Sorghum - Dot Plots and UMAP
 - **Description**: Labels cell types in Sorghum Atlas and generates dot plots using published markers.
 - **Key Operations**: UMAP visualization, dot plot creation.
 
-#### Script 27: Cell Class Clustering
+#### Script 27: Sorghum - Cell Class Clustering
 - **Description**: Clusters specific cell classes including mesophyll, epidermal, and vasculature clusters.
 
-#### Script 28: Cell Class Investigating
+#### Script 28: Sorghum - Cell Class Investigating
 - **Description**: Visualizes clustering of cell classes like vasculature, mesophyll, and epidermis.
 
-#### Script 29: Compute Differential Expression
+#### Script 29: Sorghum - Compute Differential Expression
 - **Description**: Computes differentially expressed genes for each identified cell type.
 
-### Script 30: Pseudo-Bulk Expression Profiles and T0-T12 Comparison
+### Script 30: Sorghum - Pseudo-Bulk Expression Profiles and T0-T12 Comparison
 - **Purpose**: Computes pseudo-bulk transcriptional profiles for each cell type and identifies differentially expressed genes between mesophyll and bundle sheath cell types under etiolated conditions.
 - **Key Functions**: Average and aggregate expression computation, T0 and T12 response analysis.
 
-### Script 31: Recluster Bundle Sheath using DE Genes
+### Script 31: Sorghum - Recluster Bundle Sheath using DE Genes
 - **Purpose**: Subclusters bundle sheath 10X nuclei from sorghum using differentially expressed genes as variable features.
 - **Data**: Loads reclustered data from `L3_sorghum_bundle_sheath_reclustered.RData`.
 
-### Script 32: Load Data Sets
+### Script 32: Sorghum - Load Data Sets
 - **Purpose**: Reads in pseudo-bulked expression profiles, names of photosynthesis-related genes, and transcription factors.
 - **Operations**: Time averaging, gene list export for supplementary materials.
 
-### Script 33: Cell Type Specific Expression of Photosynthesis Genes
+### Script 33: Sorghum - Cell Type Specific Expression of Photosynthesis Genes
 - **Purpose**: Analyzes light-responsive differentially expressed genes in specific cell types, focusing on photosynthesis genes.
 - **Output**: Generates heatmaps for visual analysis and saves them to `heatmap_sup_sorghum.txt`.
 
-### Script 34: Volcano Plots
+### Script 34: Sorghum - Volcano Plots
 - **Purpose**: Constructs volcano plots to visualize differentially expressed genes between mesophyll and bundle sheath cell types at T0 and T12.
 - **Features**: Includes extended data scatterplot.
 
-### Script 35: Plotting Individual Genes
+### Script 35: Sorghum - Plotting Individual Genes
 - **Purpose**: Creates cell-type specific expression profiles for candidate genes.
-- **Details**: Expression values are log-transformed for plotting.
 
-### Script 36: Z-score Plots
+### Script 36: Sorghum - Z-score Plots
 - **Purpose**: Clusters differentially expressed genes by light response to identify dominant expression trends, visualized through Z-score plots.
 - **Figures**: Includes figures for both upregulated and downregulated genes.
 
-### Script 37: Pairwise Differential Expression of Cell Type Pairs
+### Script 37: Sorghum - Pairwise Differential Expression of Cell Type Pairs
 - **Purpose**: Performs ANCOVA analysis on unnormalized pseudo-bulked transcriptional profiles to evaluate differential expression due to cell type and light response.
 - **Details**: Outputs tissue or time factor coefficients and p-values for significant genes.
 
@@ -206,7 +202,7 @@ This repository contains a series of R scripts designed to handle various aspect
 
 ### Script 39: RNA Orthology - Overlapping Cell Type Specific Genes Across Species
 - **Purpose**: Analyzes overlap of cell type-specific genes across species using orthology datasets.
-- **Outputs**: Heatmaps of significance (log2 p-value) and gene overlap counts.
+- **Outputs**: Heatmaps of significance and gene overlap counts.
 
 ### Script 40 - RNA Orthology - Sankey Plots
 - **Purpose**: Generates Sankey plots to display comparisons of cell-type marker genes across species.
@@ -227,7 +223,7 @@ This repository contains a series of R scripts designed to handle various aspect
   - Saving and exporting data subsets for further analysis.
 
 ### Script 43 - RNA Orthology - Consistent and Differential Partitioning
-- **Purpose**: Compares differentially partitioned genes across species to study consistency and variation.
+- **Purpose**: Compares differentially partitioned genes across species.
 - **Features**:
   - Handling data partitions and merging by orthogroups.
   - Visualizing results through heatmaps and bar plots.
@@ -265,48 +261,47 @@ This repository contains a series of R scripts designed to handle various aspect
   - Identification and comparison of markers.
   - Visualization via heatmaps.
 
-### Script 50 - Compute M & BS Specific Genes, and DOF Expression Patterns
+### Script 50 - Rice - Compute M & BS Specific Genes, and DOF Expression Patterns
 - **Features**:
   - Computes mesophyll-specific and bundle sheath-specific genes.
   - Visualizes DOF family gene expression patterns in these cell types.
 
-### Script 51 - Compute Cis-Element Enrichment
+### Script 51 - Rice - Compute Cis-Element Enrichment
 - **Features**:
   - Identifies over-represented cis-regulatory elements responsive to light in each cell type.
   - Uses JASPAR database for motif information.
 
 
-### Script 52 - 10X-Multiome RNA Modality Clustering
+### Script 52 - Sorghum - 10X-Multiome RNA Modality Clustering
 - **Features**:
   - Clusters Sorghum 10X-Multiome RNA data.
 
-### Script 53 - 10X-Multiome ATAC Modality Clustering
+### Script 53 - Sorghum - 10X-Multiome ATAC Modality Clustering
 - **Features**:
   - Clusters Sorghum 10X-Multiome ATAC data, including peak calling and data merging.
 
-### Script 54 - Assemble Multiome Object
+### Script 54 - Sorghum - Assemble Multiome Object
 - **Features**:
   - Combines RNA and ATAC data into one object and identifies cell types.
 
-### Script 55 - Overlap Multiome Atlas with RNA Atlas
+### Script 55 - Sorghum - Overlap Multiome Atlas with RNA Atlas
 - **Features**:
   - Compares cell type-specific gene expression markers with RNA Atlas data.
 
-### Script 56 - Compute M & BS Specific Genes, and DOF Expression Patterns
+### Script 56 - Sorghum - Compute M & BS Specific Genes, and DOF Expression Patterns
 - **Features**:
   - Similar to Script 50, adapted for Sorghum.
 
-### Script 57 - Compute Cis-Element Enrichment
+### Script 57 - Sorghum - Compute Cis-Element Enrichment
 - **Features**:
   - Similar to Script 51, adapted for Sorghum.
 
-### Chromatin Orthology
 
-### Script 58 - Partitioning RNA for Multiome
+### Script 58 - Chromatin Orthology - Partitioning RNA for Multiome
 - **Features**:
   - Analyzes gene expression partitioning across species and identifies differentially and consistently partitioned genes.
 
-### Script 59 - Cis Element Overlap
+### Script 59 - Chromatin Orthology - Cis Element Overlap
 - **Features**:
   - Overlaps cis-regulatory elements across species, assessing statistical significance.
   
@@ -341,7 +336,7 @@ This repository contains a series of R scripts designed to handle various aspect
 
 ### Script 67 - Sorghum - Light Responsive Changes in Chromatin Accessibility
 - **Purpose**: Assesses changes in chromatin accessibility in response to light conditions.
-### Statistical Analysis**: Reports p-values and conducts pairwise t-tests.
+- **Statistical Analysis**: Reports p-values and conducts pairwise t-tests.
 
 ### Script 68 - Sorghum - Enriched Motifs in Differentially Partitioned Genes
 - **Purpose**: Analyzes enriched motifs in Sorghum, similar to the corresponding Rice script.
@@ -349,7 +344,7 @@ This repository contains a series of R scripts designed to handle various aspect
 ### Script 69 - Sorghum - Counting DOFs in Differentially Partitioned Genes
 - **Purpose**: Counts Dof.2 motifs in Sorghum, ensuring consistency with similar analyses in Rice.
 
-### Script 70: Plotting Chromatin Accessibility Tracks of Individual Genes
+### Script 70 - Sorghum - Plotting Chromatin Accessibility Tracks of Individual Genes
 
 - **Purpose**: This script plots accessible chromatin tracks within mesophyll and bundle sheath cell types for candidate genes in Sorghum. It is designed to help visualize differences in chromatin accessibility between these cell types.
 - **Main Functions**:
@@ -361,6 +356,6 @@ This repository contains a series of R scripts designed to handle various aspect
 
 - **Purpose**: Computes and analyzes motif enrichment for genes that are consistently partitioned into the bundle sheath in both rice and sorghum. This script extends the analysis to include orthologs from other C3 grasses.
 - **Main Functions**:
-  - Read in required data for multiple species (Claxum, Rice, Sorghum, Barley, Brachy)
+  - Read in required data for multiple species (Chasmanthium, Rice, Sorghum, Barley, Brachypodium)
   - Use AME from the MEME suite to assess cis-regulatory enrichment within their promoters
   - Plot and export outcomes
