@@ -52,17 +52,20 @@ output_positive[a,b]<-intersect
 output_fisher[a,b]<-p_value}}
 
 # Heatmap on log2 p-value
-plot_matrix <- -log(output_fisher,10)
-plot_matrix <- ifelse(plot_matrix > 100 , 100, plot_matrix) # Set upper limit
+plot_matrix <- output_fisher
 cell_types<-c("mesophyll","bundle_sheath","guard","epidermis","phloem","xylem")
 rownames(plot_matrix)<-cell_types
 colnames(plot_matrix)<-cell_types
 plot_matrix<-melt(plot_matrix)
+plot_matrix$value<-p.adjust(plot_matrix$value, method = "fdr") # correct p-values
+plot_matrix$value <- -log(plot_matrix$value,10)
+plot_matrix$value <- ifelse(plot_matrix$value > 100 , 100, plot_matrix$value) # Set upper limit
 plot_matrix[,4]<-c(rep(2,6),rep(3,6),rep(1,6),rep(1,6),rep(1,6),rep(1,6))
 colnames(plot_matrix)<-c("rice","sorghum","log_10_p","color")
 plot_matrix <- plot_matrix %>% mutate(value_rounded = sprintf("%.2f", log_10_p))
 g1<- qplot(as.factor(sorghum), as.factor(rice), fill=log_10_p, data=plot_matrix, geom='tile') + theme(axis.text = element_text(angle = 90, vjust = 0.5, hjust=1))
-g1 + scale_fill_gradient(low="grey100", high="hotpink4") + labs(x = 'sorghum', y = 'rice') + theme_bw() + geom_text(aes(label = value_rounded), size = 3, color = "black", vjust = 0.5, hjust = 0.5)
+g1 + scale_fill_gradient(low="grey100", high="hotpink4") + labs(x = 'sorghum', y = 'rice') + theme_bw() #+ geom_text(aes(label = value_rounded), size = 3, color = "black", vjust = 0.5, hjust = 0.5)
+
 
 # Heatmap on number
 plot_matrix <- output_positive
