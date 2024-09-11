@@ -18,35 +18,42 @@ call_cis_fisher<-function(rice_list, sorghum_list){
   rice_length<-length(rice_list[,1])
   sorghum_length<-length(sorghum_list[,1])
   matrix_to_test<-matrix(c(intersect,(sorghum_length-intersect),(rice_length-intersect),(530)),2,2) # you have 530 cis elements
-  p_value<-as.numeric(fisher.test(matrix_to_test, alternative='greater')[1])
-  -log(p_value,10)}
+  p_value<-as.numeric(fisher.test(matrix_to_test, alternative='greater')[1])}
 
 # Identity Cis-Element Grid Plot
 cis_sig_table_identity<-matrix(NA, nrow=6, ncol=6)
 for (a in 1:6) {  for (b in 1:6) { cis_sig_table_identity[a,b]<- call_cis_fisher(rice_cis_elements[[a]],sorghum_cis_elements[[b]])  }}
-output_fisher<- ifelse(cis_sig_table_identity > 10 , 10, cis_sig_table_identity) # Set upper limit identity
+output_fisher<-cis_sig_table_identity
 rownames(output_fisher)<-cell_types
 colnames(output_fisher)<-cell_types
 output_fisher<-output_fisher[,rev(colnames(output_fisher))]
 plot_matrix<-melt(output_fisher)
+plot_matrix$value<-p.adjust(plot_matrix$value, method = 'fdr')
+plot_matrix$value<- -log(plot_matrix$value,10)
+plot_matrix$value<- ifelse(plot_matrix$value > 10 , 10, plot_matrix$value) # Set upper limit identity
 plot_matrix[,4]<-c(rep(2,6),rep(3,6),rep(1,6),rep(1,6),rep(1,6),rep(1,6))
 colnames(plot_matrix)<-c("rice","sorghum","log_10_p","color")
 g1<- qplot(sorghum, rice, fill=log_10_p, data=plot_matrix, geom='tile') + theme(axis.text = element_text(angle = 90, vjust = 0.5, hjust=1))
 g1 + scale_fill_gradient(low="grey100", high="hotpink4") + labs(x = 'sorghum', y = 'rice') + theme_bw()
+
 
 
 # Light Cis-Element Grid Plot
 cis_sig_table_light<-matrix(NA, nrow=6, ncol=6)
 for (a in 1:6) { for (b in 1:6) {cis_sig_table_light[a,b]<- call_cis_fisher(rice_cis_elements_light[[a]],sorghum_cis_elements_light[[b]])  }}
-output_fisher<- ifelse(cis_sig_table_light > 20 , 20, cis_sig_table_light) # Set upper limit light
+output_fisher<-cis_sig_table_light
 rownames(output_fisher)<-cell_types
 colnames(output_fisher)<-cell_types
 output_fisher<-output_fisher[,rev(colnames(output_fisher))]
 plot_matrix<-melt(output_fisher)
+plot_matrix$value<-p.adjust(plot_matrix$value, method = 'fdr')
+plot_matrix$value<- -log(plot_matrix$value,10)
+plot_matrix$value<- ifelse(plot_matrix$value > 20 , 20, plot_matrix$value)  # Set upper limit light
 plot_matrix[,4]<-c(rep(2,6),rep(3,6),rep(1,6),rep(1,6),rep(1,6),rep(1,6))
 colnames(plot_matrix)<-c("rice","sorghum","log_10_p","color")
 g1<- qplot(sorghum, rice, fill=log_10_p, data=plot_matrix, geom='tile') + theme(axis.text = element_text(angle = 90, vjust = 0.5, hjust=1))
 g1 + scale_fill_gradient(low="grey100", high="hotpink4") + labs(x = 'sorghum', y = 'rice') + theme_bw()
+
 
 
 ## Print Cis-Elements themselves
