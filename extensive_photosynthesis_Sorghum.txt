@@ -1,0 +1,227 @@
+gene_ID	process	category
+Sobic.007G108900	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.002G338000	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.010G189300	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.003G209800	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.002G352100	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.002G215000	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.002G352100	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.009G234600	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.003G209900	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.002G215000	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.002G289100	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.006G264201	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.002G288300	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.002G159100	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.004G056900	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.005G087000	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.007G136900	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.004G308700	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.001G177000	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.010G189300	PS.lightreaction.photosystem II.LHC-II	light_reaction
+Sobic.003G168800	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.004G023400	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.001G527000	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.003G221700	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.003G370000	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.002G033800	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.010G241000	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.007G207800	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.002G329600	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.003G221700	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.003G419900	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.010G241000	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.001G090700	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.004G222700	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.001G382100	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.003G169100	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.008G065000	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.007G071500	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.008G131700	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.003G221700	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.007G023300	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.001G415400	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.002G030200	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.003G172300	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.006G084500	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.003G328200	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.002G032700	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.001G415400	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.004G191200	PS.lightreaction.photosystem II.PSII polypeptide subunits	light_reaction
+Sobic.006G204800	PS.lightreaction.photosystem I	light_reaction
+Sobic.006G224300	PS.lightreaction.photosystem I	light_reaction
+Sobic.003G203000	PS.lightreaction.photosystem I.LHC-I	light_reaction
+Sobic.007G136900	PS.lightreaction.photosystem I.LHC-I	light_reaction
+Sobic.007G136900	PS.lightreaction.photosystem I.LHC-I	light_reaction
+Sobic.002G352100	PS.lightreaction.photosystem I.LHC-I	light_reaction
+Sobic.008G063500	PS.lightreaction.photosystem I.PSI polypeptide subunits	light_reaction
+Sobic.001G046900	PS.lightreaction.photosystem I.PSI polypeptide subunits	light_reaction
+Sobic.001G314200	PS.lightreaction.photosystem I.PSI polypeptide subunits	light_reaction
+Sobic.009G229700	PS.lightreaction.photosystem I.PSI polypeptide subunits	light_reaction
+Sobic.008G063500	PS.lightreaction.photosystem I.PSI polypeptide subunits	light_reaction
+Sobic.002G033900	PS.lightreaction.photosystem I.PSI polypeptide subunits	light_reaction
+Sobic.002G242000	PS.lightreaction.photosystem I.PSI polypeptide subunits	light_reaction
+Sobic.001G046900	PS.lightreaction.photosystem I.PSI polypeptide subunits	light_reaction
+Sobic.006G073500	PS.lightreaction.photosystem I.PSI polypeptide subunits	light_reaction
+Sobic.001G314200	PS.lightreaction.photosystem I.PSI polypeptide subunits	light_reaction
+Sobic.001G070500	PS.lightreaction.photosystem I.PSI polypeptide subunits	light_reaction
+Sobic.003G052500	PS.lightreaction.photosystem I.PSI polypeptide subunits	light_reaction
+Sobic.001G078000	PS.lightreaction.cytochrome b6/f	light_reaction
+Sobic.003G440500	PS.lightreaction.cytochrome b6/f	light_reaction
+Sobic.009G143100	PS.lightreaction.cytochrome b6/f.iron sulfur subunit	light_reaction
+Sobic.003G168700	PS.lightreaction.cytochrome b6/f.cytochrome b6 (CYB6)	light_reaction
+Sobic.001G098800	PS.lightreaction.ATP synthase	light_reaction
+Sobic.003G253300	PS.lightreaction.ATP synthase	light_reaction
+Sobic.003G253300	PS.lightreaction.ATP synthase	light_reaction
+Sobic.002G316700	PS.lightreaction.ATP synthase.gamma chain	light_reaction
+Sobic.001G457000	PS.lightreaction.ATP synthase.gamma chain	light_reaction
+Sobic.002G316700	PS.lightreaction.ATP synthase.gamma chain	light_reaction
+Sobic.003G169200	PS.lightreaction.ATP synthase.chloroplastic subunit a	light_reaction
+Sobic.004G235200	PS.lightreaction.ATP synthase.delta chain	light_reaction
+Sobic.001G417200	PS.lightreaction.ATP synthase.subunit B_ (ATPX)	light_reaction
+Sobic.002G342600	PS.lightreaction.other electron carrier (ox/red)	light_reaction
+Sobic.010G000500	PS.lightreaction.other electron carrier (ox/red).plastocyanin	light_reaction
+Sobic.009G154700	PS.lightreaction.other electron carrier (ox/red).ferredoxin	light_reaction
+Sobic.001G022900	PS.lightreaction.other electron carrier (ox/red).ferredoxin	light_reaction
+Sobic.004G359500	PS.lightreaction.other electron carrier (ox/red).ferredoxin	light_reaction
+Sobic.007G004700	PS.lightreaction.other electron carrier (ox/red).ferredoxin	light_reaction
+Sobic.007G004800	PS.lightreaction.other electron carrier (ox/red).ferredoxin	light_reaction
+Sobic.009G225600	PS.lightreaction.other electron carrier (ox/red).ferredoxin	light_reaction
+Sobic.001G458000	PS.lightreaction.other electron carrier (ox/red).ferredoxin	light_reaction
+Sobic.007G150800	PS.lightreaction.other electron carrier (ox/red).ferredoxin	light_reaction
+Sobic.007G004600	PS.lightreaction.other electron carrier (ox/red).ferredoxin	light_reaction
+Sobic.003G364400	PS.lightreaction.other electron carrier (ox/red).ferredoxin	light_reaction
+Sobic.006G069000	PS.lightreaction.other electron carrier (ox/red).ferredoxin	light_reaction
+Sobic.002G305700	PS.lightreaction.other electron carrier (ox/red).ferredoxin	light_reaction
+Sobic.010G005500	PS.lightreaction.other electron carrier (ox/red).ferredoxin reductase	light_reaction
+Sobic.003G431700	PS.lightreaction.other electron carrier (ox/red).ferredoxin reductase	light_reaction
+Sobic.004G126000	PS.lightreaction.other electron carrier (ox/red).ferredoxin reductase	light_reaction
+Sobic.004G151600	PS.lightreaction.other electron carrier (ox/red).ferredoxin oxireductase	light_reaction
+Sobic.003G036500	PS.lightreaction.other electron carrier (ox/red).ferredoxin oxireductase	light_reaction
+Sobic.003G425300	PS.lightreaction.other electron carrier (ox/red).ferredoxin oxireductase	light_reaction
+Sobic.003G094000	PS.lightreaction.other electron carrier (ox/red).ferredoxin oxireductase	light_reaction
+Sobic.010G157700	PS.lightreaction.NADH DH	light_reaction
+Sobic.003G378600	PS.lightreaction.NADH DH	light_reaction
+Sobic.007G027000	PS.lightreaction.NADH DH	light_reaction
+Sobic.006G162200	PS.lightreaction.NADH DH	light_reaction
+Sobic.002G198600	PS.lightreaction.NADH DH	light_reaction
+Sobic.003G433900	PS.lightreaction.NADH DH	light_reaction
+Sobic.009G219100	PS.lightreaction.state transition	light_reaction
+Sobic.009G219100	PS.lightreaction.state transition	light_reaction
+Sobic.001G005200	PS.lightreaction.cyclic electron flow-chlororespiration	light_reaction
+Sobic.002G112400	PS.lightreaction.cyclic electron flow-chlororespiration	light_reaction
+Sobic.007G161500	PS.lightreaction.cyclic electron flow-chlororespiration	light_reaction
+Sobic.001G498300	PS.lightreaction.cyclic electron flow-chlororespiration	light_reaction
+Sobic.006G258700	PS.lightreaction.cyclic electron flow-chlororespiration	light_reaction
+Sobic.001G005200	PS.lightreaction.cyclic electron flow-chlororespiration	light_reaction
+Sobic.001G179100	PS.lightreaction.cyclic electron flow-chlororespiration	light_reaction
+Sobic.006G258800	PS.lightreaction.cyclic electron flow-chlororespiration	light_reaction
+Sobic.002G112400	PS.lightreaction.cyclic electron flow-chlororespiration	light_reaction
+Sobic.002G112400	PS.lightreaction.cyclic electron flow-chlororespiration	light_reaction
+Sobic.001G005200	PS.lightreaction.cyclic electron flow-chlororespiration	light_reaction
+Sobic.006G258800	PS.lightreaction.cyclic electron flow-chlororespiration	light_reaction
+Sobic.001G542800	PS.photorespiration	photorespiration
+Sobic.001G007000	PS.photorespiration.phosphoglycolate phosphatase	photorespiration
+Sobic.006G220500	PS.photorespiration.glycolate oxydase	photorespiration
+Sobic.002G036000	PS.photorespiration.glycolate oxydase	photorespiration
+Sobic.002G036000	PS.photorespiration.glycolate oxydase	photorespiration
+Sobic.006G220600	PS.photorespiration.glycolate oxydase	photorespiration
+Sobic.002G374700	PS.photorespiration.glycolate oxydase	photorespiration
+Sobic.001G065600	PS.photorespiration.glycolate oxydase	photorespiration
+Sobic.002G374650	PS.photorespiration.glycolate oxydase	photorespiration
+Sobic.002G036000	PS.photorespiration.glycolate oxydase	photorespiration
+Sobic.007G213700	PS.photorespiration.aminotransferases peroxisomal	photorespiration
+Sobic.008G062500	PS.photorespiration.glycine cleavage.H protein	photorespiration
+Sobic.004G055700	PS.photorespiration.glycine cleavage.H protein	photorespiration
+Sobic.003G373600	PS.photorespiration.serine hydroxymethyltransferase	photorespiration
+Sobic.001G097100	PS.photorespiration.serine hydroxymethyltransferase	photorespiration
+Sobic.008G144800	PS.photorespiration.serine hydroxymethyltransferase	photorespiration
+Sobic.001G097100	PS.photorespiration.serine hydroxymethyltransferase	photorespiration
+Sobic.006G005300	PS.photorespiration.hydroxypyruvate reductase	photorespiration
+Sobic.006G014000	PS.photorespiration.hydroxypyruvate reductase	photorespiration
+Sobic.006G004600	PS.photorespiration.hydroxypyruvate reductase	photorespiration
+Sobic.002G032900	PS.photorespiration.hydroxypyruvate reductase	photorespiration
+Sobic.004G001300	PS.photorespiration.hydroxypyruvate reductase	photorespiration
+Sobic.006G004900	PS.photorespiration.hydroxypyruvate reductase	photorespiration
+Sobic.004G001300	PS.photorespiration.hydroxypyruvate reductase	photorespiration
+Sobic.006G004700	PS.photorespiration.hydroxypyruvate reductase	photorespiration
+Sobic.004G001300	PS.photorespiration.hydroxypyruvate reductase	photorespiration
+Sobic.003G008900	PS.photorespiration.hydroxypyruvate reductase	photorespiration
+Sobic.006G005300	PS.photorespiration.hydroxypyruvate reductase	photorespiration
+Sobic.009G004100	PS.photorespiration.glycerate kinase	photorespiration
+Sobic.010G082800	PS.calvin cycle	calvin_cycle
+Sobic.001G396300	PS.calvin cycle	calvin_cycle
+Sobic.005G042000	PS.calvin cycle.rubisco small subunit	calvin_cycle
+Sobic.004G055200	PS.calvin cycle.phosphoglycerate kinase	calvin_cycle
+Sobic.010G221800	PS.calvin cycle.phosphoglycerate kinase	calvin_cycle
+Sobic.009G183700	PS.calvin cycle.phosphoglycerate kinase	calvin_cycle
+Sobic.004G055200	PS.calvin cycle.phosphoglycerate kinase	calvin_cycle
+Sobic.001G236800	PS.calvin cycle.phosphoglycerate kinase	calvin_cycle
+Sobic.010G221800	PS.calvin cycle.phosphoglycerate kinase	calvin_cycle
+Sobic.010G221800	PS.calvin cycle.phosphoglycerate kinase	calvin_cycle
+Sobic.006G105900	PS.calvin cycle.GAP	calvin_cycle
+Sobic.007G140700	PS.calvin cycle.GAP	calvin_cycle
+Sobic.006G105900	PS.calvin cycle.GAP	calvin_cycle
+Sobic.006G105900	PS.calvin cycle.GAP	calvin_cycle
+Sobic.001G519800	PS.calvin cycle.GAP	calvin_cycle
+Sobic.006G105900	PS.calvin cycle.GAP	calvin_cycle
+Sobic.006G105900	PS.calvin cycle.GAP	calvin_cycle
+Sobic.006G105900	PS.calvin cycle.GAP	calvin_cycle
+Sobic.001G519800	PS.calvin cycle.GAP	calvin_cycle
+Sobic.003G352300	PS.calvin cycle.TPI	calvin_cycle
+Sobic.003G352300	PS.calvin cycle.TPI	calvin_cycle
+Sobic.002G277100	PS.calvin cycle.TPI	calvin_cycle
+Sobic.003G393900	PS.calvin cycle.aldolase	calvin_cycle
+Sobic.010G188300	PS.calvin cycle.aldolase	calvin_cycle
+Sobic.008G053200	PS.calvin cycle.aldolase	calvin_cycle
+Sobic.005G056400	PS.calvin cycle.aldolase	calvin_cycle
+Sobic.004G146000	PS.calvin cycle.aldolase	calvin_cycle
+Sobic.001G425400	PS.calvin cycle.FBPase	calvin_cycle
+Sobic.001G425400	PS.calvin cycle.FBPase	calvin_cycle
+Sobic.003G367500	PS.calvin cycle.FBPase	calvin_cycle
+Sobic.009G152700	PS.calvin cycle.FBPase	calvin_cycle
+Sobic.003G367500	PS.calvin cycle.FBPase	calvin_cycle
+Sobic.009G152700	PS.calvin cycle.FBPase	calvin_cycle
+Sobic.003G367500	PS.calvin cycle.FBPase	calvin_cycle
+Sobic.010G219700	PS.calvin cycle.FBPase	calvin_cycle
+Sobic.006G034300	PS.calvin cycle.transketolase	calvin_cycle
+Sobic.009G062800	PS.calvin cycle.transketolase	calvin_cycle
+Sobic.010G023700	PS.calvin cycle.transketolase	calvin_cycle
+Sobic.003G359100	PS.calvin cycle.seduheptulose bisphosphatase	calvin_cycle
+Sobic.001G069000	PS.calvin cycle.Rib5P Isomerase	calvin_cycle
+Sobic.001G491000	PS.calvin cycle.RPE	calvin_cycle
+Sobic.001G491000	PS.calvin cycle.RPE	calvin_cycle
+Sobic.001G491000	PS.calvin cycle.RPE	calvin_cycle
+Sobic.004G272100	PS.calvin cycle.PRK	calvin_cycle
+Sobic.006G200800	PS.calvin cycle.PRK	calvin_cycle
+Sobic.004G272100	PS.calvin cycle.PRK	calvin_cycle
+Sobic.001G247900	PS.calvin cycle.rubisco interacting	calvin_cycle
+Sobic.002G199000	PS.calvin cycle.rubisco interacting	calvin_cycle
+Sobic.005G231500	PS.calvin cycle.rubisco interacting	calvin_cycle
+Sobic.009G251000	PS.calvin cycle.rubisco interacting	calvin_cycle
+Sobic.005G231600	PS.calvin cycle.rubisco interacting	calvin_cycle
+Sobic.005G231600	"PS.calvin cycle.ribulose-1,5-bisP"	calvin_cycle
+Sobic.003G234200	CA	C4
+Sobic.003G234400	CA	C4
+Sobic.010G160700	PEPC	C4
+Sobic.007G166300	MDH	C4
+Sobic.009G132900	PPDK	C4
+Sobic.009G088200	"APE2,TPT"	C4
+Sobic.009G237100	BASS	C4
+Sobic.003G236800	BASS	C4
+Sobic.009G124000	MEP	C4
+Sobic.002G324400	PPDK RP1	C4
+Sobic.005G042000	RBCS1A	C4
+Sobic.006G130300	PGLP1	C4
+Sobic.003G036200	NADP-ME	C4
+Sobic.003G036000	NADP-ME	C4
+Sobic.004G353100	"CUE1,PPT"	C4
+Sobic.004G165000	BASS	C4
+Sobic.002G141900	NHD1	C4
+Sobic.003G431900	MEP	C4
+Sobic.001G000800	MEP	C4
+Sobic.002G324700	PPDK RP1	C4
+Sobic.007G113600	AMK	C4
+Sobic.007G009200	AMK	C4
+Sobic.004G268000	PPa4	C4
+Sobic.004G311100	PPa6	C4

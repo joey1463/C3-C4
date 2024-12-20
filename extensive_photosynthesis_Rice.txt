@@ -1,0 +1,252 @@
+gene-ID	process	category
+LOC-Os08g27010	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os11g13890	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os03g39610	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os02g52650	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os09g17740	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os09g26810	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os06g21590	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os04g38410	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os07g37240	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os07g37550	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os02g10390	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os08g33820	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os09g12540	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os07g38960	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os01g52240	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os01g41710	'PS.lightreaction.photosystem II.LHC-II'	light_reaction
+LOC-Os04g16874	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os07g36080	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os10g21192	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os01g64960	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os10g39880	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os10g32400	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os02g42000	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os07g04840	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os02g24632	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os01g43070	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os07g01480	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os08g15322	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os12g37710	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os03g21560	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os08g39430	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os01g31690	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os12g29570	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os08g35420	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os04g16872	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os06g39708	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os04g16770	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os10g21322	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os10g21212	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os07g05360	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os10g21298	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os03g17174	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os12g08830	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os02g36850	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os01g59090	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os08g15296	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os12g19580	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os08g40160	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os04g44190	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os02g24634	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os04g35530	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os05g24810	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os01g71190	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os08g25900	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os06g39704	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os04g59440	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os01g70820	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os10g41689	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os03g53640	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os08g10020	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os04g44200	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os05g22730	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os07g05365	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os10g21310	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os12g10600	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os09g04680	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os04g16848	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os06g39728	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os07g17390	'PS.lightreaction.photosystem II.PSII polypeptide subunits'	light_reaction
+LOC-Os04g53612	'PS.lightreaction.photosystem I'	light_reaction
+LOC-Os01g40710	'PS.lightreaction.photosystem I.LHC-I'	light_reaction
+LOC-Os03g56670	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os08g44680	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os10g38234	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os12g23200	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os04g33830	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os07g05480	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os07g22498	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os10g21250	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os06g46436	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os10g21406	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os04g16760	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os01g57962	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os09g30340	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os10g39150	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os05g48630	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os07g28610	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os10g38229	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os05g15280	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os01g57964	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os05g01675	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os12g08770	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os10g21248	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os07g25430	'PS.lightreaction.photosystem I.PSI polypeptide subunits'	light_reaction
+LOC-Os01g73540	'PS.lightreaction.cytochrome b6/f'	light_reaction
+LOC-Os07g37030	'PS.lightreaction.cytochrome b6/f.iron sulfur subunit'	light_reaction
+LOC-Os10g21326	'PS.lightreaction.cytochrome b6/f.subunit 4 (PETD)'	light_reaction
+LOC-Os01g57945	'PS.lightreaction.cytochrome b6/f.subunit 4 (PETD)'	light_reaction
+LOC-Os08g15292	'PS.lightreaction.cytochrome b6/f.subunit 4 (PETD)'	light_reaction
+LOC-Os04g16844	'PS.lightreaction.cytochrome b6/f.subunit 4 (PETD)'	light_reaction
+LOC-Os04g16846	'PS.lightreaction.cytochrome b6/f.cytochrome b6 (CYB6)'	light_reaction
+LOC-Os12g10604	'PS.lightreaction.cytochrome b6/f.cytochrome b6 (CYB6)'	light_reaction
+LOC-Os10g21324	'PS.lightreaction.cytochrome b6/f.cytochrome b6 (CYB6)'	light_reaction
+LOC-Os01g57942	'PS.lightreaction.cytochrome b6/f.cytochrome b6 (CYB6)'	light_reaction
+LOC-Os08g15280	'PS.lightreaction.cytochrome b6/f.apocytochrome f (CYF)'	light_reaction
+LOC-Os01g65902	'PS.lightreaction.cytochrome b6/f.apocytochrome f (CYF)'	light_reaction
+LOC-Os06g39738	'PS.lightreaction.cytochrome b6/f.apocytochrome f (CYF)'	light_reaction
+LOC-Os02g24596	'PS.lightreaction.cytochrome b6/f.apocytochrome f (CYF)'	light_reaction
+LOC-Os10g21290	'PS.lightreaction.cytochrome b6/f.apocytochrome f (CYF)'	light_reaction
+LOC-Os01g48300	'PS.lightreaction.ATP synthase'	light_reaction
+LOC-Os09g08880	'PS.lightreaction.ATP synthase.alpha subunit'	light_reaction
+LOC-Os03g48471	'PS.lightreaction.ATP synthase.alpha subunit'	light_reaction
+LOC-Os06g39756	'PS.lightreaction.ATP synthase.epsilon chain'	light_reaction
+LOC-Os01g58000	'PS.lightreaction.ATP synthase.epsilon chain'	light_reaction
+LOC-Os12g19430	'PS.lightreaction.ATP synthase.epsilon chain'	light_reaction
+LOC-Os10g21264	'PS.lightreaction.ATP synthase.epsilon chain'	light_reaction
+LOC-Os07g32880	'PS.lightreaction.ATP synthase.gamma chain'	light_reaction
+LOC-Os10g38276	'PS.lightreaction.ATP synthase.chloroplastic subunit a'	light_reaction
+LOC-Os10g21236	'PS.lightreaction.ATP synthase.chloroplastic subunit a'	light_reaction
+LOC-Os02g51470	'PS.lightreaction.ATP synthase.delta chain'	light_reaction
+LOC-Os09g08464	'PS.lightreaction.ATP synthase.subunit B (ATPF)'	light_reaction
+LOC-Os10g38272	'PS.lightreaction.ATP synthase.subunit B (ATPF)'	light_reaction
+LOC-Os04g16748	'PS.lightreaction.ATP synthase.subunit B (ATPF)'	light_reaction
+LOC-Os10g21238	'PS.lightreaction.ATP synthase.subunit B (ATPF)'	light_reaction
+LOC-Os03g17070	'PS.lightreaction.ATP synthase.subunit B_ (ATPX)'	light_reaction
+LOC-Os07g38000	'PS.lightreaction.other electron carrier (ox/red)'	light_reaction
+LOC-Os06g01210	'PS.lightreaction.other electron carrier (ox/red).plastocyanin'	light_reaction
+LOC-Os05g37140	'PS.lightreaction.other electron carrier (ox/red).ferredoxin'	light_reaction
+LOC-Os02g58740	'PS.lightreaction.other electron carrier (ox/red).ferredoxin'	light_reaction
+LOC-Os07g30670	'PS.lightreaction.other electron carrier (ox/red).ferredoxin'	light_reaction
+LOC-Os03g61960	'PS.lightreaction.other electron carrier (ox/red).ferredoxin'	light_reaction
+LOC-Os04g33630	'PS.lightreaction.other electron carrier (ox/red).ferredoxin'	light_reaction
+LOC-Os08g35710	'PS.lightreaction.other electron carrier (ox/red).ferredoxin'	light_reaction
+LOC-Os05g48160	'PS.lightreaction.other electron carrier (ox/red).ferredoxin'	light_reaction
+LOC-Os08g01380	'PS.lightreaction.other electron carrier (ox/red).ferredoxin'	light_reaction
+LOC-Os04g57780	'PS.lightreaction.other electron carrier (ox/red).ferredoxin'	light_reaction
+LOC-Os01g64120	'PS.lightreaction.other electron carrier (ox/red).ferredoxin'	light_reaction
+LOC-Os03g11450	'PS.lightreaction.other electron carrier (ox/red).ferredoxin'	light_reaction
+LOC-Os02g01340	'PS.lightreaction.other electron carrier (ox/red).ferredoxin reductase'	light_reaction
+LOC-Os06g01850	'PS.lightreaction.other electron carrier (ox/red).ferredoxin reductase'	light_reaction
+LOC-Os02g17700	'PS.lightreaction.other electron carrier (ox/red).ferredoxin reductase'	light_reaction
+LOC-Os02g22260	'PS.lightreaction.other electron carrier (ox/red).ferredoxin oxireductase'	light_reaction
+LOC-Os01g72090	'PS.lightreaction.other electron carrier (ox/red).ferredoxin oxireductase'	light_reaction
+LOC-Os01g03050	'PS.lightreaction.other electron carrier (ox/red).ferredoxin oxireductase'	light_reaction
+LOC-Os10g21402	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os01g20110	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os05g28090	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os12g19420	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os06g22010	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os02g18940	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os06g46435	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os02g24574	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os10g38212	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os10g21258	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os01g66000	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os04g45600	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os08g23160	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os01g58022	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os01g58024	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os07g22504	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os01g72950	'PS.lightreaction.NADH DH'	light_reaction
+LOC-Os05g40180	'PS.lightreaction.state transition'	light_reaction
+LOC-Os05g47560	'PS.lightreaction.state transition'	light_reaction
+LOC-Os08g41460	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os03g63010	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os04g57320	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os10g21396	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os04g16854	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os07g22496	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os08g45190	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os06g46438	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os03g64020	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os08g414600	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os08g21900	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os10g21418	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os04g16732	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os03g38950	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os10g21398	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os10g38206	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os08g15248	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os07g41300	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os07g25004	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os04g16742	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os10g21394	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os10g21404	'PS.lightreaction.cyclic electron flow-chlororespiration'	light_reaction
+LOC-Os03g01222	'PS.photorespiration'	photorespiration
+LOC-Os12g23150	'PS.photorespiration.phosphoglycolate phosphatase'	photorespiration
+LOC-Os08g09860	'PS.photorespiration.glycolate oxydase'	photorespiration
+LOC-Os07g42440	'PS.photorespiration.glycolate oxydase'	photorespiration
+LOC-Os04g53210	'PS.photorespiration.glycolate oxydase'	photorespiration
+LOC-Os07g05820	'PS.photorespiration.glycolate oxydase'	photorespiration
+LOC-Os04g53214	'PS.photorespiration.glycolate oxydase'	photorespiration
+LOC-Os03g57220	'PS.photorespiration.glycolate oxydase'	photorespiration
+LOC-Os08g39300	'PS.photorespiration.aminotransferases peroxisomal'	photorespiration
+LOC-Os06g40940	'PS.photorespiration.glycine cleavage.P subunit'	photorespiration
+LOC-Os01g51410	'PS.photorespiration.glycine cleavage.P subunit'	photorespiration
+LOC-Os06g45670	'PS.photorespiration.glycine cleavage.H protein'	photorespiration
+LOC-Os02g07410	'PS.photorespiration.glycine cleavage.H protein'	photorespiration
+LOC-Os10g37180	'PS.photorespiration.glycine cleavage.H protein'	photorespiration
+LOC-Os03g52840	'PS.photorespiration.serine hydroxymethyltransferase'	photorespiration
+LOC-Os01g12830	'PS.photorespiration.hydroxypyruvate reductase'	photorespiration
+LOC-Os02g01150	'PS.photorespiration.hydroxypyruvate reductase'	photorespiration
+LOC-Os04g01600	'PS.photorespiration.hydroxypyruvate reductase'	photorespiration
+LOC-Os04g01674	'PS.photorespiration.hydroxypyruvate reductase'	photorespiration
+LOC-Os04g01650	'PS.photorespiration.hydroxypyruvate reductase'	photorespiration
+LOC-Os04g01660	'PS.photorespiration.hydroxypyruvate reductase'	photorespiration
+LOC-Os01g48990	'PS.photorespiration.glycerate kinase'	photorespiration
+LOC-Os01g19740	'PS.calvin cycle'	calvin_cycle
+LOC-Os03g19380	'PS.calvin cycle'	calvin_cycle
+LOC-Os01g58020	'PS.calvin cycle.rubisco large subunit'	calvin_cycle
+LOC-Os11g32770	'PS.calvin cycle.rubisco large subunit'	calvin_cycle
+LOC-Os05g35330	'PS.calvin cycle.rubisco large subunit'	calvin_cycle
+LOC-Os10g21268	'PS.calvin cycle.rubisco large subunit'	calvin_cycle
+LOC-Os02g05830	'PS.calvin cycle.rubisco small subunit'	calvin_cycle
+LOC-Os12g17600	'PS.calvin cycle.rubisco small subunit'	calvin_cycle
+LOC-Os12g19381	'PS.calvin cycle.rubisco small subunit'	calvin_cycle
+LOC-Os12g19470	'PS.calvin cycle.rubisco small subunit'	calvin_cycle
+LOC-Os02g07260	'PS.calvin cycle.phosphoglycerate kinase'	calvin_cycle
+LOC-Os06g45710	'PS.calvin cycle.phosphoglycerate kinase'	calvin_cycle
+LOC-Os05g41640	'PS.calvin cycle.phosphoglycerate kinase'	calvin_cycle
+LOC-Os01g58610	'PS.calvin cycle.phosphoglycerate kinase'	calvin_cycle
+LOC-Os10g30550	'PS.calvin cycle.phosphoglycerate kinase'	calvin_cycle
+LOC-Os03g03720	'PS.calvin cycle.GAP'	calvin_cycle
+LOC-Os04g38600	'PS.calvin cycle.GAP'	calvin_cycle
+LOC-Os08g34210	'PS.calvin cycle.GAP'	calvin_cycle
+LOC-Os01g62420	'PS.calvin cycle.TPI'	calvin_cycle
+LOC-Os01g05490	'PS.calvin cycle.TPI'	calvin_cycle
+LOC-Os09g36450	'PS.calvin cycle.TPI'	calvin_cycle
+LOC-Os11g07020	'PS.calvin cycle.aldolase'	calvin_cycle
+LOC-Os01g67860	'PS.calvin cycle.aldolase'	calvin_cycle
+LOC-Os01g02880	'PS.calvin cycle.aldolase'	calvin_cycle
+LOC-Os05g33380	'PS.calvin cycle.aldolase'	calvin_cycle
+LOC-Os06g40640	'PS.calvin cycle.aldolase'	calvin_cycle
+LOC-Os10g08022	'PS.calvin cycle.aldolase'	calvin_cycle
+LOC-Os08g02700	'PS.calvin cycle.aldolase'	calvin_cycle
+LOC-Os06g45370	'PS.calvin cycle.FBPase'	calvin_cycle
+LOC-Os05g36270	'PS.calvin cycle.FBPase'	calvin_cycle
+LOC-Os01g64660	'PS.calvin cycle.FBPase'	calvin_cycle
+LOC-Os03g16050	'PS.calvin cycle.FBPase'	calvin_cycle
+LOC-Os06g04270	'PS.calvin cycle.transketolase'	calvin_cycle
+LOC-Os04g19740	'PS.calvin cycle.transketolase'	calvin_cycle
+LOC-Os04g16680	'PS.calvin cycle.seduheptulose bisphosphatase'	calvin_cycle
+LOC-Os09g32810	'PS.calvin cycle.RPE'	calvin_cycle
+LOC-Os03g07300	'PS.calvin cycle.RPE'	calvin_cycle
+LOC-Os02g47020	'PS.calvin cycle.PRK'	calvin_cycle
+LOC-Os04g50880	'PS.calvin cycle.PRK'	calvin_cycle
+LOC-Os04g56320	'PS.calvin cycle.rubisco interacting'	calvin_cycle
+LOC-Os11g47980	'PS.calvin cycle.rubisco interacting'	calvin_cycle
+LOC-Os11g47970	'PS.calvin cycle.rubisco interacting'	calvin_cycle
+LOC-Os05g50980	'PS.calvin cycle.rubisco interacting'	calvin_cycle
+LOC-Os09g24530	'PS.calvin cycle.rubisco interacting'	calvin_cycle
