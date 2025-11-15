@@ -1,6 +1,6 @@
 # Exaptation of ancestral cell identity networks enables C4 photosynthesis
 
-This repository contains the code for the paper "Exaptation of ancestral cell identity networks enables C4 photosynthesis" published in XXXX.
+This repository contains the code for the paper "Exaptation of ancestral cell identity networks enables C4 photosynthesis" published in Nature - Swift, J.*, Luginbuehl, L.H.*, Hua, L., Schreier, T.B., Donald, R.M., Stanley, S., Wang, N., Lee, T.A., Nery, J.R., Ecker, J.R. and Hibberd, J.M., 2024. Exaptation of ancestral cell-identity networks enables C4 photosynthesis. Nature, 636(8041), pp.143-150.
 
 ## Environment Setup
 
